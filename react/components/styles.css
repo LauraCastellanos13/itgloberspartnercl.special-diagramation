@@ -3,7 +3,9 @@
 .grid__3,
 .grid__4 {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
 }
 
 .grid__2>div:nth-child(1) {
@@ -44,14 +46,14 @@
 
 .grid_itemBig {
   margin: 10px;
-  width: calc(50% - 20px);
-  height: 500px;
-  background-color: deeppink;
+  height: auto;
+  max-height: 800px;
+  display: flex;
+
 }
 
 .grid_itemSmall {
   margin: 10px;
   width: calc(25% - 20px);
-  background-color: rgb(237, 91, 169);
-  height: 500px;
+  height: 800px;
 }
